@@ -1,8 +1,8 @@
 # for personal projects
--- with--
+-- with-----
 1.parthiv
 2.nagsu
 3.nitin
 4.pavan
 
-<p color = green>hello</p>
+<p style = "color:green">hello</p>
