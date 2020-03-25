@@ -5,7 +5,7 @@ function main()
 	if(name == "" && passwd == "")
 	{
 		
-		document.getElementById("error").innerHTML = "Enter your Credentials";
+		document.getElementById("error").innerHTML = "Enter Your Credentials";
 	}
 	else if(name == "" && passwd != "")
 	{	
@@ -23,10 +23,12 @@ function main()
 	
 	var x = document.getElementById("error");
 	x.style.display = "none"
-  	if (x.style.display === "none") {
+  	if (x.style.display === "none") 
+	{
    		 x.style.display = "block";
   	} 
-  	else {
+  	else
+	{
    	 x.style.display = "none";
  	 }
  	 
